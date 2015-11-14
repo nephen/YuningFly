@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	int a,b;
+	int c,d;
 	printf("Hello,pixhawk!");
 	return 0;
 }
