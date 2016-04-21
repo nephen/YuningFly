@@ -8,6 +8,8 @@
 
 	![creat_project](../images/creat_project.png)
 
+2. 添加[标题栏](http://jingyan.baidu.com/article/e52e36154467e940c60c5187.html)TitleBlock0
+
 2. [新建元件库](http://wenku.baidu.com/link?url=DZptfwWOgny_4ejvw0WVvdqtp3VgsoHT-yGHt6wsm5c1NJOCFY3XP785GMzvEdvsZaiIEJOPT90HGhJvafOW3MPGFWrTl4v8kh2h3J7UwQ7)yuningfly.OLB，并创建新在元件如：stm32f407
 
 	![place](../images/Place.png)
@@ -28,4 +30,6 @@
 
 	![fix_size](../images/fix_size.png)
 
-6. 连线，可以使用快捷键w。
+6. 连线，可以使用快捷键w，注意这里不能为红色，否则线连的不是很整齐。
+
+	![white](../images/white.png)
