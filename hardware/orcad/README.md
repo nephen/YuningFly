@@ -4,7 +4,7 @@
 
 通过查看px4官方原理图可以发现，主处理器为stm32f427，在FMU SoC Ports FRAM这页可以发现，协处理器为stm32f103，在IO SoC Ports Spektrum/DSM port这页可以发现。其中处理器是以端口的形式出现在相应类别的页码中，而不是以我们平常画原理图芯片元件整体的形式，所以注意理解这个。
 
-电源流行分析：电流计出来的VDD_5V_IN -> 分流为VDD_5V_PERIPH和VDD_5V_HIPOWER，但是我们舍弃了VDD_5V_HIPOWER，而VDD_5V_PERIPH用于给外接器件供电 -> 然后VDD_5V_PERIPH还通过稳压芯片转换出FMU-VDD_3V3和IO-VDD_3V3，FMU-VDD_3V3给stm32f427及传感器供电，IO-VDD_3V3给stm32f103供电。
+电源流行分析：电流计出来的VDD_5V_IN -> 分流为IO-VDD_5V5,VDD_5V_PERIPH和VDD_5V_HIPOWER，但是我们舍弃了VDD_5V_HIPOWER，而VDD_5V_PERIPH用于给外接器件供电 -> 然后VDD_5V_PERIPH还通过稳压芯片转换出FMU-VDD_3V3和IO-VDD_3V3，FMU-VDD_3V3给stm32f427及传感器供电，IO-VDD_3V3给stm32f103供电。
 
 更多参考[pixhawk飞控介绍](http://www.docin.com/p-1092528341.html)/[看看pixhawk的无赖设计](http://www.docin.com/p-757319248.html)
 
