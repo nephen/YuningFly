@@ -13,21 +13,81 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (PORTLEFT-L
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-R
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (VCC
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    ("CAPACITOR POL/SM"
+      (FullPartName "CAPACITOR POL/SM.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM31117
+      (FullPartName "LM31117.Normal")
+      (LibraryName
+         "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SD_CARD
+      (FullPartName "SD_CARD.Normal")
+      (LibraryName
+         "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TCA62764
+      (FullPartName "TCA62764.Normal")
+      (LibraryName
+         "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7"
+      (FullPartName "HEADER 7.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT3469
+      (FullPartName "LT3469.Normal")
+      (LibraryName
+         "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW SPST"
+      (FullPartName "SW SPST.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (BATTERY
       (FullPartName "BATTERY.Normal")
@@ -35,10 +95,6 @@
       (DeviceIndex "0"))
     ("DIODE SCHOTTKY"
       (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAPACITOR NON-POL"
-      (FullPartName "CAPACITOR NON-POL.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (FM25V01
@@ -60,12 +116,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\yuningfly.dsn")
-      (Path "Design Resources" ".\yuningfly.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\yuningfly.dsn" "Design Cache")
+      (Path "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.dsn")
+      (Path "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\yuningfly.olb")
-      (Select "Design Resources" ".\yuningfly.dsn" "Design Cache" "TitleBlock0"))
+      (Path "Design Resources" "Library"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.olb")
+      (Select "Design Resources" "Library"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -73,11 +136,22 @@
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 270"))
       (Tab 0))
     (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1131 75 387")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "514 98")
+        (Zoom "152"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
+      (Package "stm32f103"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 245 1297 24 332")
-        (Scroll "1882 1446")
-        (Zoom "200")
+        (Scroll "0 60")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -86,18 +160,50 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 332 0 301")
-        (Scroll "122 456")
-        (Zoom "132")
+        (Scroll "0 420")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
       (Page "FMU Power Reset"))
     (Doc
-      (Type "COrNetSymbolDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1106 75 442")
-        (Scroll "789 121")
-        (Zoom "262"))
-      (Path "H:\UAV\PixhawkDeveloper\YuningFly\hardware\orcad\yuningfly.OLB")
-      (Symbol "TitleBlock0")))
+        (Placement "44 0 1 -1 -1 -8 -30 150 482 150 451")
+        (Scroll "91 221")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SPI I2C"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 1031 0 367")
+        (Scroll "122 234")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power source"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 357 25 326")
+        (Scroll "0 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LEDs Piezo driver Safety switch"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 332 0 301")
+        (Scroll "0 0")
+        (Zoom "66")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "USB microSD Expansion")))
   (MPSSessionName "Administrator"))
