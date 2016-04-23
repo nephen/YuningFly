@@ -30,7 +30,7 @@
 
 	![place_com](../images/place_com.png)
 
-6. 如果原理图页面过小，可以修改原理图的大小
+6. (可选)如果原理图页面过小，可以修改原理图的大小
 
 	![fix_size](../images/fix_size.png)
 
@@ -47,6 +47,7 @@
 	![anno3](../images/anno3.png)
 
 9. 添加元件封装。
+
 	1、先进入Project Manager，选择顶层原理图，选Edit－Browse Parts，用点击和Shift＋点击选择所有元件，再选菜单Edit－Property。找到PCB Footprint那项，可以逐个填入，相同封装填一个，然后copy，再Paste。
 
 	![foot1](../images/foot1.png)
@@ -71,6 +72,7 @@
 
 	出现如下信息，证明是没有问题。
 
+	```
 	--------------------------------------------------
 	Checking Schematic: SCHEMATIC1
 	--------------------------------------------------
@@ -79,3 +81,4 @@
 	Checking For Single Node Nets
 
 	Checking For Unconnected Bus Nets
+	```
