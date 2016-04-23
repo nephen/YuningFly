@@ -14,7 +14,7 @@
 
 2. 添加[标题栏](http://jingyan.baidu.com/article/e52e36154467e940c60c5187.html)TitleBlock0
 
-2. [新建元件库](http://wenku.baidu.com/link?url=DZptfwWOgny_4ejvw0WVvdqtp3VgsoHT-yGHt6wsm5c1NJOCFY3XP785GMzvEdvsZaiIEJOPT90HGhJvafOW3MPGFWrTl4v8kh2h3J7UwQ7)yuningfly.OLB，并创建新在元件如：stm32f407
+3. [新建元件库](http://wenku.baidu.com/link?url=DZptfwWOgny_4ejvw0WVvdqtp3VgsoHT-yGHt6wsm5c1NJOCFY3XP785GMzvEdvsZaiIEJOPT90HGhJvafOW3MPGFWrTl4v8kh2h3J7UwQ7)yuningfly.OLB，并创建新在元件如：stm32f407
 
 	![place](../images/Place.png)
 
@@ -22,18 +22,36 @@
 
 	![update_com](../images/update_com.png)
 
-3. 添加元件库
+4. 添加元件库
 
 	![addolb](../images/addolb.png)
 
-4. 放置元件到原理图，如果能记住元件在名字可以进行全局搜索，万一不记得上网搜索如晶振为CRYSTAL，或者直接在库里进行查找，如常用的库为DESCRETE
+5. 放置元件到原理图，如果能记住元件在名字可以进行全局搜索，万一不记得上网搜索如晶振为CRYSTAL，或者直接在库里进行查找，如常用的库为DESCRETE
 
 	![place_com](../images/place_com.png)
 
-5. 如果原理图页面过小，可以修改原理图的大小
+6. 如果原理图页面过小，可以修改原理图的大小
 
 	![fix_size](../images/fix_size.png)
 
-6. 连线，可以使用快捷键w，注意这里不能为红色，否则线连的不是很整齐。
+7. 连线，可以使用快捷键w，注意这里不能为红色，否则线连的不是很整齐。
 
 	![white](../images/white.png)
+
+8. (可选)为了使元件编号有序，可以元件重新编号。
+
+	![anno1](../images/anno1.png)
+
+	![anno2](../images/anno2.png)
+
+	![anno3](../images/anno3.png)
+
+9. DRC检查语法错误。
+
+	![drc](../images/drc.png)
+
+10. 创建网表，可供PADS使用绘画PCB。
+
+	![net1](../images/net1.png)
+
+	![net2](../images/net2.png)

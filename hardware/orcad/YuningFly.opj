@@ -9,22 +9,86 @@
     (File ".\yuningfly.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE"))
+  (Folder "Outputs"
+    (File ".\yuningfly.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7"
+      (FullPartName "HEADER 7.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     ("HEADER 6"
       (FullPartName "HEADER 6.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("CAP POL"
       (FullPartName "CAP POL.Normal")
@@ -38,10 +102,6 @@
       (FullPartName "LM31117.Normal")
       (LibraryName
          "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("HEADER 3"
       (FullPartName "HEADER 3.Normal")
@@ -90,14 +150,6 @@
       (FullPartName "HEADER 4.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
-    ("HEADER 7"
-      (FullPartName "HEADER 7.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("HEADER 2"
-      (FullPartName "HEADER 2.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -110,9 +162,6 @@
     ("SW SPST"
       (FullPartName "SW SPST.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-R
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "H:\UAV\PixhawkDeveloper\YuningFly\hardware\orcad")
@@ -129,7 +178,10 @@
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.olb"))
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.olb")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -140,8 +192,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 245 1297 24 332")
-        (Scroll "-190 0")
-        (Zoom "41")
+        (Scroll "243 482")
+        (Zoom "164")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -150,8 +202,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 332 0 301")
-        (Scroll "269 73")
-        (Zoom "100")
+        (Scroll "8 380")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -160,8 +212,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 482 150 451")
-        (Scroll "91 221")
-        (Zoom "132")
+        (Scroll "0 0")
+        (Zoom "56")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -200,8 +252,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 457 75 346")
-        (Scroll "173 171")
-        (Zoom "82")
+        (Scroll "748 168")
+        (Zoom "164")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -210,7 +262,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 482 100 371")
-        (Scroll "0 261")
+        (Scroll "0 97")
         (Zoom "112")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
@@ -225,5 +277,26 @@
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "FMU Serial ports")))
-  (MPSSessionName "Administrator"))
+      (Page "FMU Serial ports"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 407 25 296")
+        (Scroll "111 143")
+        (Zoom "112")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Servo Header S.Bus interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1156 100 412")
+        (Scroll "-232 0")
+        (Zoom "56")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Sensors")))
+  (MPSSessionName "Administrator")
+  (ISPCBBASICLICENSE "false"))
