@@ -5,13 +5,5 @@ Checking Schematic: SCHEMATIC1
 Checking Electrical Rules 
 
 Checking For Single Node Nets
-WARNING:  [DRC0006]  Net has fewer than two connections IO-USART1_TX
-                    SCHEMATIC1, IO SoC Ports Spektrum/DSM port  (12.10, 3.10) 
-WARNING:  [DRC0006]  Net has fewer than two connections IO-USART1_RX
-                    SCHEMATIC1, IO SoC Ports Spektrum/DSM port  (12.10, 3.20) 
 
 Checking For Unconnected Bus Nets
-WARNING:  [DRC0008]  Two nets in same schematic have the same name, but there is no off-page connector IO-USART1_TX
-                    SCHEMATIC1, IO SoC Ports Spektrum/DSM port  (12.10, 3.10) 
-WARNING:  [DRC0008]  Two nets in same schematic have the same name, but there is no off-page connector VBAT
-                    SCHEMATIC1, IO SoC Ports Spektrum/DSM port  (6.00, 3.40) 

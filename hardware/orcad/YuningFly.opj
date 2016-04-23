@@ -61,6 +61,9 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -70,9 +73,6 @@
     ("HEADER 7"
       (FullPartName "HEADER 7.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
@@ -179,9 +179,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.olb")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningfly.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -192,7 +190,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 245 1297 24 332")
-        (Scroll "243 482")
+        (Scroll "243 562")
         (Zoom "164")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
@@ -202,7 +200,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 332 0 301")
-        (Scroll "8 380")
+        (Scroll "8 132")
         (Zoom "82")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
@@ -233,7 +231,7 @@
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 357 25 326")
         (Scroll "0 0")
-        (Zoom "41")
+        (Zoom "57")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")
@@ -252,7 +250,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 457 75 346")
-        (Scroll "748 168")
+        (Scroll "475 413")
         (Zoom "164")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
@@ -282,7 +280,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 407 25 296")
-        (Scroll "111 143")
+        (Scroll "0 143")
         (Zoom "112")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
@@ -292,8 +290,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1156 100 412")
-        (Scroll "-232 0")
-        (Zoom "56")
+        (Scroll "-130 0")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLY.DSN")
       (Schematic "SCHEMATIC1")

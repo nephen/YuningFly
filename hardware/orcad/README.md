@@ -46,12 +46,36 @@
 
 	![anno3](../images/anno3.png)
 
-9. DRC检查语法错误。
+9. 添加元件封装。
+	1、先进入Project Manager，选择顶层原理图，选Edit－Browse Parts，用点击和Shift＋点击选择所有元件，再选菜单Edit－Property。找到PCB Footprint那项，可以逐个填入，相同封装填一个，然后copy，再Paste。
+
+	![foot1](../images/foot1.png)
+
+	2、一页一页修改，打开某页，框选中当前页所有器件，再点右键，选属性，在弹出对话框中按要修改REF排序，用左键拖拉要修改的为同种封装器件再点右键，然后击EDIT，填入封装就成批修改了。
+
+	![foot2](../images/foot2.png)
+
+	![foot3](../images/foot3.png)
+
+
+
+10. DRC检查语法错误。
 
 	![drc](../images/drc.png)
 
-10. 创建网表，可供PADS使用绘画PCB。
+11. 创建网表，可供PADS使用绘画PCB。
 
 	![net1](../images/net1.png)
 
 	![net2](../images/net2.png)
+
+	出现如下信息，证明是没有问题。
+
+	--------------------------------------------------
+	Checking Schematic: SCHEMATIC1
+	--------------------------------------------------
+	Checking Electrical Rules 
+
+	Checking For Single Node Nets
+
+	Checking For Unconnected Bus Nets
