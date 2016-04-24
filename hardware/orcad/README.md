@@ -46,7 +46,7 @@
 
 	![anno3](../images/anno3.png)
 
-9. 添加元件封装，可以有两种方式。
+9. 添加元件封装，可以有两种方式，封装的名字为在PADS里面使用的元件的名字。
 
 	1、先进入Project Manager，选择顶层原理图，选Edit－Browse Parts，用点击和Shift＋点击选择所有元件，再选菜单Edit－Property。找到PCB Footprint那项，可以逐个填入，相同封装填一个，然后copy，再Paste。
 
@@ -64,12 +64,6 @@
 
 	![drc](../images/drc.png)
 
-11. 创建网表，可供PADS使用绘画PCB。
-
-	![net1](../images/net1.png)
-
-	![net2](../images/net2.png)
-
 	出现如下信息，证明是没有问题。
 
 	```
@@ -82,3 +76,10 @@
 
 	Checking For Unconnected Bus Nets
 	```
+
+11. 创建网表，可供PADS使用绘画PCB。
+
+	![net1](../images/net1.png)
+
+	![net2](../images/net2.png)
+
