@@ -50,13 +50,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\yuningflyimu.dsn")
-      (Path "Design Resources" ".\yuningflyimu.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\yuningflyimu.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\yuningflyimu.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\yuningflyimu.dsn"))
+      (Select "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflyimu.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -67,8 +64,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1106 50 368")
-        (Scroll "149 531")
-        (Zoom "164")
+        (Scroll "-192 0")
+        (Zoom "41")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYIMU.DSN")
       (Schematic "SCHEMATIC1")

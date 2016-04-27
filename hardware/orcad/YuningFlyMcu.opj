@@ -168,18 +168,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "H:\UAV\PixhawkDeveloper\YuningFly\hardware\orcad\yuningflymcu.dsn")
-      (Path "Design Resources"
-         "H:\UAV\PixhawkDeveloper\YuningFly\hardware\orcad\yuningflymcu.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\yuningflymcu.dsn")
+      (Path "Design Resources" ".\yuningflymcu.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\yuningflymcu.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 270"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1131 75 387")
+        (Scroll "0 187")
+        (Zoom "82")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FMU SoC Ports FRAM")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false"))

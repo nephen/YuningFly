@@ -83,3 +83,20 @@
 
 	![net2](../images/net2.png)
 
+12. 备注：相比MC的原理图，参考官方px4原理图修改部分如下。
+
+	- FMU Power Reset页面：增加电源FMU-VDD_3V3的盘路电容。
+
+		![capa](../images/capa.png)
+	- FMU Power Reset页面：将VDD_5V_IN电源连接到VDD_5V_PERIPH。
+
+		![periph](../images/periph.png)
+	- FMU Power Reset页面：将VDD_3V3_SENSORS连接到FMU-VDD_3V3。
+
+		![sensors](../images/sensors.png)
+	- IO Power Supply页面：将VDD_5V_IN连接至IO-VDD_5V。
+
+		![io-vdd](../images/io-vdd.png)
+	- Sensors页面：与IMU板子的接口重新排列。
+	
+		![sensorsio](../images/sensorsio.png)
