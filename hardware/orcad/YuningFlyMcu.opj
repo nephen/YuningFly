@@ -30,7 +30,7 @@
     (DRC_Report_File
        "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DRC")
     (DRC_Check_Ports "FALSE")
-    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
     (DRC_SDT_Compatibility "FALSE")
     (DRC_Report_Off-grid_Objects "FALSE")
@@ -168,11 +168,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\yuningflymcu.dsn")
-      (Path "Design Resources" ".\yuningflymcu.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflymcu.dsn")
+      (Path "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflymcu.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\yuningflymcu.dsn"))
+      (Select "Design Resources"
+         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflymcu.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -183,11 +187,111 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1131 75 387")
-        (Scroll "0 187")
+        (Scroll "0 72")
         (Zoom "82")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "FMU SoC Ports FRAM")))
+      (Page "FMU SoC Ports FRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1131 125 476")
+        (Scroll "-46 0")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FMU Power Reset"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1156 150 501")
+        (Scroll "0 98")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FMU Serial ports"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1181 175 526")
+        (Scroll "-105 0")
+        (Zoom "77")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "IO Power Supply"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1031 25 376")
+        (Scroll "364 180")
+        (Zoom "114")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "IO SoC Ports Spektrum/DSM port"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1056 50 401")
+        (Scroll "-46 0")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LEDs Piezo driver Safety switch"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1081 75 426")
+        (Scroll "-105 0")
+        (Zoom "77")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power source"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1106 100 451")
+        (Scroll "161 212")
+        (Zoom "136")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Sensors"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1131 125 476")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Servo Header S.Bus interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1156 150 501")
+        (Scroll "0 158")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SPI I2C"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1181 175 526")
+        (Scroll "0 158")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "USB microSD Expansion")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false"))

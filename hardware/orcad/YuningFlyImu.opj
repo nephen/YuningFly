@@ -19,7 +19,7 @@
     (DRC_Report_File
        "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYIMU.DRC")
     (DRC_Check_Ports "FALSE")
-    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
     (DRC_SDT_Compatibility "FALSE")
     (DRC_Report_Off-grid_Objects "FALSE")
@@ -42,7 +42,8 @@
     (DRC_Type_Mismatch "TRUE")
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
-    (DRC_Check_Name_Prop_For_HierBlocks "TRUE"))
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\yuningflyimu.drc"
       (Type "Report")))
@@ -50,10 +51,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\yuningflyimu.dsn")
+      (Path "Design Resources" ".\yuningflyimu.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"
-         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflyimu.dsn"))
+      (Select "Design Resources" ".\yuningflyimu.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -64,8 +66,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1106 50 368")
-        (Scroll "-192 0")
-        (Zoom "41")
+        (Scroll "-71 0")
+        (Zoom "57")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYIMU.DSN")
       (Schematic "SCHEMATIC1")
