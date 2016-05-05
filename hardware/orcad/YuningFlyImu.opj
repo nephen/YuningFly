@@ -55,7 +55,7 @@
       (Path "Design Resources" ".\yuningflyimu.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\yuningflyimu.dsn"))
+      (Select "Design Resources" ".\yuningflyimu.dsn" "SCHEMATIC1" "Sensors"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -66,8 +66,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1106 50 368")
-        (Scroll "-71 0")
-        (Zoom "57")
+        (Scroll "271 1571")
+        (Zoom "228")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYIMU.DSN")
       (Schematic "SCHEMATIC1")

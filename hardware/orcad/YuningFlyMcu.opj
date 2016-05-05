@@ -61,11 +61,15 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (VCC
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -80,10 +84,6 @@
       (DeviceIndex "0"))
     ("HEADER 2"
       (FullPartName "HEADER 2.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("HEADER 8"
-      (FullPartName "HEADER 8.Normal")
       (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     ("HEADER 6"
@@ -168,11 +168,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflymcu.dsn")
-      (Path "Design Resources"
-         "h:\uav\pixhawkdeveloper\yuningfly\hardware\orcad\yuningflymcu.dsn"
-         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources"
@@ -187,7 +182,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1131 75 387")
-        (Scroll "0 72")
+        (Scroll "0 40")
         (Zoom "82")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
@@ -267,8 +262,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1131 125 476")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "268 568")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
       (Schematic "SCHEMATIC1")
@@ -287,7 +282,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1181 175 526")
-        (Scroll "0 158")
+        (Scroll "0 88")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\UAV\PIXHAWKDEVELOPER\YUNINGFLY\HARDWARE\ORCAD\YUNINGFLYMCU.DSN")
