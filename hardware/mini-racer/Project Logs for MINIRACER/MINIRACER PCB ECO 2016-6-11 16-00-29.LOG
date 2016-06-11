@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=BUT/BUZ1 Old Footprint=Molex_Clik_1.25_5H New Footprint=HDR1X5
+Added Pin To Net: NetName=FMU_VDD_3V3 Pin=C37-1

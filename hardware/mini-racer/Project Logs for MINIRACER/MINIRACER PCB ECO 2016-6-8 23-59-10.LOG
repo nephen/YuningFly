@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VDD_5V_PERIPH Pin=C41-1
+Removed Pin From Net: NetName=GND Pin=C41-2
+Removed Pin From Net: NetName=GND Pin=TELEM1-6
+Removed Pin From Net: NetName=VDD_5V_PERIPH Pin=TELEM2-1
+Removed Pin From Net: NetName=GND Pin=TELEM2-6
+Removed Member From Class: ClassName=MINIRACER-SERIALS Member=C41
+Removed Member From Class: ClassName=MINIRACER-SERIALS Member=TELEM2
+Change Component Footprint: Designator=TELEM1 Old Footprint=Molex_Clok_1.25_6H New Footprint=HDR1X4
+Change Component Designator: OldDesignator=BOOT0 NewDesignator=BOOT2
+Added Pin To Net: NetName=GND Pin=TELEM1-4
+Change Net Name : Old Net Name=NetBOOT0_1 New Net Name=NetBOOT2_1

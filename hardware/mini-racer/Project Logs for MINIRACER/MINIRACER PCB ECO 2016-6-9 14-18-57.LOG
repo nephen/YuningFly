@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VDD_5V_IN Pin=EMI1-1
+Removed Pin From Net: NetName=GND Pin=EMI1-3
+Removed Pin From Net: NetName=GND Pin=EMI1-4
+Removed Member From Class: ClassName=MINIRACER-IMU Member=EMI1
+Added Pin To Net: NetName=VDD_5V_IN Pin=C27-2
+Added Pin To Net: NetName=VDD_5V_IN Pin=U8-1

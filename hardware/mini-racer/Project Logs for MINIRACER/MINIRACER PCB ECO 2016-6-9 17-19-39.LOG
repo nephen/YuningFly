@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VDD_5V_RECEIVER Pin=FR1-2
+Removed Pin From Net: NetName=VDD_5V_IN Pin=FR2-1
+Removed Pin From Net: NetName=NetC34_2 Pin=FR3-2
+Removed Member From Class: ClassName=MINIRACER-FMU Member=C3
+Removed Member From Class: ClassName=MINIRACER-FMU Member=C4
+Removed Member From Class: ClassName=MINIRACER-POWER Member=FR1
+Removed Member From Class: ClassName=MINIRACER-POWER Member=FR2
+Removed Member From Class: ClassName=MINIRACER-POWER Member=FR3
+Change Component Designator: OldDesignator=BOOT2 NewDesignator=BOOT0
+Added Pin To Net: NetName=VDD_5V_IN Pin=C40-1
+Added Pin To Net: NetName=VDD_5V_RECEIVER Pin=D2-2
+Added Pin To Net: NetName=NetC34_2 Pin=POWERBRICK1-1
+Added Pin To Net: NetName=VDD_5V_IN Pin=TELEM1-1
+Change Net Name : Old Net Name=NetBOOT2_1 New Net Name=NetBOOT0_1
+Change Net Name : Old Net Name=NetC34_2 New Net Name=VDD_5V_BRICK

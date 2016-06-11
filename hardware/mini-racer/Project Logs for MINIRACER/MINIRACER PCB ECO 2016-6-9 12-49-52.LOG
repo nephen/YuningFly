@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=FMU_USART2_RX Pin=TELEM1-3
+Added Pin To Net: NetName=FMU_USART2_RX Pin=U1-87
+Added Net: Name=FMU_USART2_RX
+Added Pin To Net: NetName=FMU_USART2_TX Pin=TELEM1-2
+Added Pin To Net: NetName=FMU_USART2_TX Pin=U1-86
+Added Net: Name=FMU_USART2_TX

@@ -1,0 +1,21 @@
+Removed Member From Class: ClassName=MINIRACER-IMU Member=C15
+Removed Member From Class: ClassName=MINIRACER-IMU Member=C16
+Removed Member From Class: ClassName=MINIRACER-POWER Member=C29
+Removed Member From Class: ClassName=MINIRACER-POWER Member=C30
+Removed Member From Class: ClassName=MINIRACER-SD-USB Member=C34
+Removed Member From Class: ClassName=MINIRACER-SD-USB Member=C35
+Removed Member From Class: ClassName=MINIRACER-SERIALS Member=C36
+Change Component Comment : Designator=POWER LED1 Old Comment=GREEN New Comment=POWER LED GREEN
+Change Component Comment : Designator=POWERBRICK1 Old Comment=JST GH New Comment=POWERBRICK JST GH
+Change Component Designator: OldDesignator=POWERBRICK1 NewDesignator=PB1
+Change Component Designator: OldDesignator=POWER LED1 NewDesignator=P/D1
+Change Net Name : Old Net Name=NetPOWER LED1_2 New Net Name=NetP/D1_2
+Added Member To Class: ClassName=MINIRACER-FMU Member=Component C15 2u2
+Added Member To Class: ClassName=MINIRACER-FMU Member=Component C16 2u2
+Added Member To Class: ClassName=MINIRACER-IMU Member=Component C29 10u
+Added Member To Class: ClassName=MINIRACER-IMU Member=Component C30 0u47
+Added Member To Class: ClassName=MINIRACER-POWER Member=Component C34 10uF 6.3V
+Added Member To Class: ClassName=MINIRACER-POWER Member=Component C35 100n
+Added Member To Class: ClassName=MINIRACER-SD-USB Member=Component C36 100n
+Added Member To Class: ClassName=MINIRACER-SD-USB Member=Component C37 100n
+Added Member To Class: ClassName=MINIRACER-SERIALS Member=Component C38 2u2

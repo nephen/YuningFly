@@ -1,0 +1,4 @@
+Remove Pin=TELEM1-2 From Net=FMU_USART3_TX
+Remove Pin=TELEM1-3 From Net=FMU_USART3_RX
+Change Component Comment: Designator=G1 Old Comment=GND New Comment=GH
+Change Pin Designator/Name:  Old Designator=TELEM1-1 Old Name=1 New Designator =1 New Name=1
